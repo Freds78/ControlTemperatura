@@ -39,10 +39,12 @@ typedef enum{
 typedef struct{
 	RomFun_Comm_t mode;
 	delay_t delay;
-	uint8_t contador;
+	uint8_t contador_secuencia;
+	uint8_t contSensor;
 }conection_t;
 
 /*=====[Prototypes (declarations) of public functions]=======================*/
+
 void masterTx_Control(conection_t *command);
 void sensorInit(conection_t *command);
 void diskTickHook( void *ptr );

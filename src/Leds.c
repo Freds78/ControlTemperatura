@@ -6,7 +6,8 @@
  */
 
 
-#include "Leds.h"
+#include "../../SensorTemperatura/inc/Leds.h"
+
 #include "sapi.h"
 
 
